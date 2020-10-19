@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: mall-ums
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      config:
+        server-addr: ${nacos.conf_server_host}
+        file-extension: yaml
