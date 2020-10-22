@@ -42,6 +42,10 @@ public class Result<T> implements Serializable {
         return new Result(ResultCodeEnum.UNAUTHORIZED.getCode(), null, ResultCodeEnum.UNAUTHORIZED.getDesc());
     }
 
+    public static Result unauthorized(String msg){
+        return new Result(ResultCodeEnum.UNAUTHORIZED.getCode(), null, msg);
+    }
+
     public Integer getCode() {
         return code;
     }

@@ -1,8 +1,12 @@
 package com.qin.mall.ums.domain;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class UmsResource {
+public class UmsResource implements Serializable {
+
+    private static final long serialVersionUID = 1471148428224591300L;
+
     /**
      *  
      */

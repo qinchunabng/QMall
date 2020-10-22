@@ -1,8 +1,14 @@
 package com.qin.mall.ums.domain;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class UmsAdmin {
+/**
+ * @author qinch
+ */
+public class UmsAdmin implements Serializable {
+
+    private static final long serialVersionUID = 7648171286628172888L;
     /**
      *  
      */
